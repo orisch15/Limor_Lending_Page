@@ -191,3 +191,123 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    /* Header */
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header ul li {
+        margin: 10px 0;
+    }
+
+    /* Hero Section */
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* About Section */
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    /* Services Section */
+    .services h2 {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        margin: 20px 0;
+    }
+
+    .service-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .service-item p {
+        font-size: 1rem;
+    }
+
+    /* Testimonials Section */
+    .testimonials h2 {
+        font-size: 2rem;
+    }
+
+    .testimonial-item {
+        margin: 10px 0;
+    }
+
+    /* Contact Section */
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact form {
+        padding: 0 20px;
+    }
+
+    .contact input, .contact textarea {
+        font-size: 1rem;
+    }
+
+    .contact button {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+}
+
+/* Very small screens (less than 480px) */
+@media (max-width: 480px) {
+    /* Hero Section */
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    /* Navigation */
+    header nav {
+        padding: 10px;
+    }
+
+    /* Button Sizes */
+    .hero .btn {
+        font-size: 1rem;
+        padding: 12px 18px;
+    }
+
+    /* Contact Form */
+    .contact form {
+        padding: 0 10px;
+    }
+
+    .contact input, .contact textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .contact button {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+
