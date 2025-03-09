@@ -33,13 +33,22 @@ header nav {
     box-sizing: border-box;
 }
 
+header .logo {
+    margin-right: 0px;
+    display: inline-block;
+    align-items: end;
+    margin-left: auto; /* This will push the logo to the right */
+}
+
 header .logo h1 {
     color: white;
     font-size: 2rem;
     margin: 0;
+    margin-right: 0px;
+    display: inline-block;
 }
 
-header ul {
+/*header ul {
     list-style: none;
     display: flex;
     padding: 0;
@@ -59,7 +68,7 @@ header ul li a {
 header ul li a:hover {
     color: #FF9F9F;
 }
-
+*/
 /* Hero Section */
 .hero {
     background-image: url('hero-image.jpg'); /* Replace with a relevant image */
@@ -209,7 +218,7 @@ footer {
         padding: 10px 0;
     }
 
-    header ul {
+   /* header ul {
         flex-direction: column;
         margin-top: 10px;
         width: 100%;
@@ -227,7 +236,7 @@ footer {
         width: 100%;
         display: block;
     }
-
+*/
     /* Hero Section */
     .hero h2 {
         font-size: 2.5rem;
@@ -295,38 +304,3 @@ footer {
         padding: 12px 20px;
     }
 }
-
-/* Very small screens (less than 480px) */
-@media (max-width: 480px) {
-    /* Hero Section */
-    .hero h2 {
-        font-size: 2rem;
-    }
-
-    /* Navigation */
-    header nav {
-        padding: 10px;
-    }
-
-    /* Button Sizes */
-    .hero .btn {
-        font-size: 1rem;
-        padding: 12px 18px;
-    }
-
-    /* Contact Form */
-    .contact form {
-        padding: 0 10px;
-    }
-
-    .contact input, .contact textarea {
-        font-size: 0.9rem;
-        padding: 8px;
-    }
-
-    .contact button {
-        padding: 10px 15px;
-        font-size: 1rem;
-    }
-}
-
