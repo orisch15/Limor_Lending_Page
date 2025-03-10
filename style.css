@@ -229,6 +229,8 @@ header ul li a:hover {
     border-radius: 5px;
     font-size: 1.2rem;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+
 }
 
 .contact button:hover {
@@ -241,6 +243,16 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* Smooth transition for elements */
+h1, h2, p, li {
+    transition: all 0.3s ease-in-out;
+}
+
+h1:hover, h2:hover, li:hover {
+    color: #3182ce;
+    font-weight: bolder;
 }
 
 /* Mobile responsiveness */
@@ -336,5 +348,7 @@ footer {
     .contact button {
         font-size: 1rem;
         padding: 12px 20px;
+        transition: background-color 0.3s ease;
+
     }
 }
