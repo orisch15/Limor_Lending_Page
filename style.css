@@ -259,7 +259,7 @@ h1:hover, h2:hover, li:hover {
 @media (max-width: 768px) {
     /* Header */
     header nav {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding: 10px 0;
     }
