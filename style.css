@@ -264,6 +264,12 @@ h1:hover, h2:hover, li:hover {
         padding: 10px 0;
     }
 
+    header .logo_img img {
+        width: 40px;
+        height: 40px;
+        border-radius: 10%;
+        }
+
    /* header ul {
         flex-direction: column;
         margin-top: 10px;
